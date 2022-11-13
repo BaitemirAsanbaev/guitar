@@ -1,0 +1,29 @@
+@keyframes anim {
+  0%{
+    transform: translate( 20px, -410px) rotate(0deg);
+  }
+  25%{
+    transform: translate( 20px, -410px) rotate(15deg);
+  }
+  50%{
+    transform: translate( 20px, -410px) rotate(-10deg);
+  }
+  75%{
+    transform: translate( 20px, -410px) rotate(15deg);
+  }
+  100%{
+    transform: translate( 20px, -410px) rotate(0deg);
+  }
+}
+
+
+.arm{
+  transform: translate( 20px, -410px);
+}
+.anim{
+  transform: translate( 20px, -410px);
+  transform-origin: left;
+  animation-name: anim;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+}
